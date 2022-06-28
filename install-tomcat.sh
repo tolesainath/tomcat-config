@@ -6,7 +6,7 @@ rm -rf apache*
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.64/bin/apache-tomcat-9.0.64.tar.gz
 sudo tar xvzf apache-tomcat-9.*
 sudo rm -rf apache*.gz
-sudo git clone https://github.com/adhig93/tomcat-config
+sudo git clone https://github.com/tolesainath/tomcat-config
 sudo cp ./tomcat-config/context.xml /opt/apache-tomcat-9.*/webapps/manager/META-INF/context.xml
 sudo cp ./tomcat-config/context.xml /opt/apache-tomcat-9.*/webapps/host-manager/META-INF/context.xml
 sudo cp ./tomcat-config/tomcat-users.xml /opt/apache-tomcat-9.*/conf/tomcat-users.xml
